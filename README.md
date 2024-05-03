@@ -1,9 +1,9 @@
-To Run:
+To Run: open command line 
 
-open command line 
 python3 /latest/src/main.py --path=resources
 
-for Testing
+For Testing , Total 7 test caese
+
 pytest /latest/tests
 
 What is Given in results?
