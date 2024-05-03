@@ -1,0 +1,11 @@
+id,caller_id,company,recipient,age,country,product_sold,quantity
+1,40,Verbruggen-Vermeulen CommV,Anny Claessens,45,Belgium,Banner,50
+2,17,Hendrickx CV,Lutgarde Van Loock,41,Belgium,Sign,23
+3,63,Buysse-Van Dessel VOF,Georges Jacobs,22,Belgium,Scanner,48
+4,65,Heremans VOF,Josephus Torfs Lemmens,45,Belgium,Desktop,36
+5,15,Koninklijke Aelftrud van Wessex,Mustafa Ehlert,34,Netherlands,Headset,1
+6,19,Ardagh Group,Mila Adriaense-Maas,30,Netherlands,Billboard,31
+7,20,"Claessens, Verfaillie en Dewulf CommV",Hasan Claeys,60,Belgium,Social Media Ad,48
+8,97,Schenk Kohl e.V.,Irmela Dörschner B.A.,60,Germany,Scanner,4
+9,42,Brizee BV,Olaf van Beek,53,Netherlands,Printer,41
+10,79,de Ruiter Groep,Tom van Dooren-van der Ven,38,Netherlands,Scanner,14
