@@ -18,7 +18,7 @@ Output #4 - Top 3 best performers per department
 
 Output #5 - Top 3 most sold products per department in the Netherlands
 
-Output #6 - Who is the best overall salesperson per country
+Output #6 - The best overall salesperson per country
 
-Output #7 - Who is the best overall salesperson per department per country
+Output #7 - The best overall salesperson per department per country
 
