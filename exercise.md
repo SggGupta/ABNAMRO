@@ -110,6 +110,10 @@ The management team wants to reward it's best employees with a bonus and therefo
 
 - The output directory should be called **best_salesperson** and you must use PySpark to save only to one **CSV** file.
 
+### Output #7 - **Who is the best overall salesperson per country per department**
+
+- The output directory should be called **best_salesperson_department** and you must use PySpark to save only to one **CSV** file.
+
 ## What is wanted? Extra Bonus
 
 - Please derive other two insights from the three datasets that you find interesting. Either create new datasets in **CSV** or if you prefer create some graphs.
