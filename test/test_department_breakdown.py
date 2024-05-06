@@ -19,11 +19,11 @@ class PySparkTestCase(unittest.TestCase):
 class TestTranformation(PySparkTestCase):
     def test_single_space(self):
 
-        path = 'file:///Users/sapnagupta/Downloads/latest/test/department_breakdown'
+        path = './test/department_breakdown'
 
-        df1 = spark.read.csv('/Users/sapnagupta/Downloads/latest/test/resources/dataset_one.csv',header='true', inferSchema='true')
-        df2 = spark.read.csv('/Users/sapnagupta/Downloads/latest/test/resources/dataset_two.csv',header='true', inferSchema='true')
-        df3 = spark.read.csv('/Users/sapnagupta/Downloads/latest/test/resources/dataset_three.csv',header='true', inferSchema='true')
+        df1 = spark.read.csv('./test/resources/dataset_one.csv',header='true', inferSchema='true')
+        df2 = spark.read.csv('./test/resources/dataset_two.csv',header='true', inferSchema='true')
+        df3 = spark.read.csv('./test/resources/dataset_three.csv',header='true', inferSchema='true')
 
         df1 = df1.alias('df1')
         df2 = df2.alias('df2')
@@ -32,9 +32,9 @@ class TestTranformation(PySparkTestCase):
 
         # Apply the transformation function from before
         department_breakdown(df1, df2,path)
-        transformed_df = spark.read.csv('/Users/sapnagupta/Downloads/latest/test/department_breakdown/*.csv', inferSchema='true')
+        transformed_df = spark.read.csv('./test/department_breakdown/*.csv', inferSchema='true')
 
-        expected_df = spark.read.csv('/Users/sapnagupta/Downloads/latest/test/expected_department_breakdown/*.csv', inferSchema='true')
+        expected_df = spark.read.csv('./test/expected_department_breakdown/*.csv', inferSchema='true')
 
         expected_df = expected_df.alias('expected_df')
 
