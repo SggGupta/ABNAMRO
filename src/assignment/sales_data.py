@@ -4,13 +4,13 @@ from pyspark.sql import SparkSession
 import logging
 from logging import Logger
 from typing import Dict, Any, Optional
-from src.assignment.main import it_data
-from src.assignment.main import marketing_address_info
-from src.assignment.main import department_breakdown
-from src.assignment.main import top_3_best_performers_per_department
-from src.assignment.main import top_3_most_sold_products_per_department
-from src.assignment.main import top_3_best_salesperson_department
-from src.assignment.main import top_3_best_salesperson_department_country
+from main import it_data
+from main import marketing_address_info
+from main import department_breakdown
+from main import top_3_best_performers_per_department
+from main import top_3_most_sold_products_per_department
+from main import top_3_best_salesperson_department
+from main import top_3_best_salesperson_department_country
 
 
 class LoggerProvider:
