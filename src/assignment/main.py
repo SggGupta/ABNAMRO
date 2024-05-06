@@ -1,12 +1,11 @@
 import argparse
-import os
 import pyspark
-import logging
-import logging.config
-
 from pyspark.sql.functions import split, explode, col, filter , sum , rank
 from pyspark.sql import SparkSession, DataFrame
 from pyspark.sql.window import Window as w  
+
+
+
 
 def it_data (df1: DataFrame, df2: DataFrame, path: str)  -> DataFrame:
     '''Returns a dataframe with info of people that are working in selling IT Department''' 
@@ -100,6 +99,6 @@ if __name__ == '__main__':
         .builder \
         .appName(args.path) \
         .getOrCreate()
-    
+    spark.sparkContext.setLogLevel("WARN")
     run(spark,args.path)
 
