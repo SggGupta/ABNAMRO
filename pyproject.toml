@@ -19,3 +19,6 @@ classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python"
 ]
+
+[project.scripts]
+sales-data = "src:assignment:sales_data"
