@@ -1,14 +1,8 @@
 # ABNAMRO
 # Assignment
-## Pyspark project structure for production
 
-### It has been tested for spark on windows
-
-##### to run:
-
-###### Zip the jobs folder
-###### open command line and traverse to pyspark folder
+##### To Run:
 ###### python3 /latest/src/main.py --path=resources
 
-##### for Testing
+##### For Testing
 ###### pytest /latest/tests
