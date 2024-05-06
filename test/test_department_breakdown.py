@@ -4,7 +4,7 @@ import unittest
 
 from chispa.dataframe_comparer import *
 from pyspark.sql import SparkSession
-from src.main import department_breakdown
+from src.assignment.main import department_breakdown
 
 spark = SparkSession.builder.appName("chispa_test").getOrCreate()
 

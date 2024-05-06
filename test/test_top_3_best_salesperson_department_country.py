@@ -3,7 +3,7 @@ import unittest
 
 from chispa.dataframe_comparer import *
 from pyspark.sql import SparkSession
-from src.main import top_3_best_salesperson_department_country
+from src.assignment.main import top_3_best_salesperson_department_country
 
 spark = SparkSession.builder.appName("chispa_test").getOrCreate()
 
